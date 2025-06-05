@@ -1,15 +1,13 @@
-# Building a Radar Target Generator
+# A Radar Simulator
 
-## Overview
-This repo outlines the following:
+This repo primarily covers a step-by-step approach to generating synthetic radar targets and applying 2D CFAR detection -- exploring how radar sees the world. The simulation pipeline consists of the following, implemented in [Matlab](https://matlab.mathworks.com/).
 1. Implementation steps for the 2D CFAR process.
 2. Selection of Training, Guard cells and offset.
 3. Steps taken to suppress the non-thresholded cells at the edges.
 
 
-
 ## Table of Content
-- [Radar Target Generation Pipeline](#pipeline)
+- [Simulation Pipeline](#pipeline)
 - [Radar System Requirements](#requirements)
 - [Implementation Steps for 2D CFAR Process](#implementation)
 - [Radar System Evaluation](#eval)
@@ -17,7 +15,7 @@ This repo outlines the following:
 
 
 
-## Radar Target Generation Pipeline <a name="pipeline"></a>
+## Simulation Pipeline <a name="pipeline"></a>
 <p align="center"><img src="assets/2025.06.04-00-radar-pipeline.png" width="591" height="335"/></p>
 
 1. Configure the FMCW waveform based on the system requirements.
