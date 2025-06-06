@@ -302,4 +302,4 @@ We also implemented the 2D CFAR process on the output of 2D FFT operation, i.e t
 ## Ackowledgements <a name="acknowledgements"></a>
 * [Udacity Sensor Fusion Program](https://learn.udacity.com/nanodegrees/nd313/parts/cd0683/lessons/b7907bc7-58e1-430a-ad51-a1f3e554b4dc/concepts/b7907bc7-58e1-430a-ad51-a1f3e554b4dc-project-rubric)
 
-For any questions or feedback, feel free to email moorissa.tjokro@columbia.edu.
+This project has also been shared on Medium ([see article here](https://medium.com/codex/building-a-radar-simulator-a-practical-guide-to-doppler-motion-and-2d-cfar-detection-17508fdf627b)). For any questions or feedback, feel free to email [moorissa.tjokro@columbia.edu](mailto:moorissa.tjokro@columbia.edu).
